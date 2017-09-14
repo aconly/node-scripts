@@ -1,0 +1,33 @@
+{
+  "name": "poet-node-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "scan-tx": "dist/scan-tx.js",
+    "scan-block": "dist/scan-block.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poetapp/node-scripts.git"
+  },
+  "keywords": [],
+  "author": "Lautaro Dragan <lautaro@po.et>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poetapp/node-scripts/issues"
+  },
+  "homepage": "https://github.com/poetapp/node-scripts#readme",
+  "dependencies": {
+    "bitcore-lib": "^0.14.0",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "0.0.34",
+    "@types/node": "^8.0.28",
+    "typescript": "^2.5.2"
+  }
+}
