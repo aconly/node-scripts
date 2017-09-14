@@ -1,6 +1,6 @@
 {
   "name": "poet-node-scripts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "bin": {
     "scan-tx": "dist/scan-tx.js",
