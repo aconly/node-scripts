@@ -3,7 +3,7 @@
 ### How to Install
 Install this package globally and it'll link some utils that you can run from your shell.
 
-`npm i -g poet-node scripts`
+`npm i -g poet-node-scripts`
 
 Currently hardcoded to use https://test-insight.bitpay.com/ for all the requests.
 
@@ -36,11 +36,13 @@ Found Po.et data:
 
 #### Scan a Block for Po.et Data
 
+`scan-block <block-hash>`
+
 Same as `scan-tx`, but runs for all transactions in the block.
 
 Example:
 
-```$xslt
+```
 $ scan-block 000000000003900fe3cc34621ff6e2c0e91bd92ab26b20f990ad338367d99ca2
 Retrieving block 000000000003900fe3cc34621ff6e2c0e91bd92ab26b20f990ad338367d99ca2
 
