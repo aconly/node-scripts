@@ -11,7 +11,7 @@ export function getPoetData(tx: any): any {
   function isOutputCorrectNetworkAndVersion(output: any) {
     const data: Buffer = output.script.getData()
     return data.indexOf(PREFIX_POET) === 0
-      || data.indexOf(PREFIX_BARD) === 4
+      || data.indexOf(PREFIX_BARD) === 0
   }
 
   const output = tx.outputs
