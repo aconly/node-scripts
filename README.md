@@ -1,5 +1,7 @@
 # Po.et Node Scripts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/poetapp/node-scripts.svg)](https://greenkeeper.io/)
+
 ### How to Install
 Install this package globally and it'll link some utils that you can run from your shell.
 
